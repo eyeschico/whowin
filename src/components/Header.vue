@@ -16,11 +16,11 @@ defineProps({
 <style scoped>
 h1 {
   text-transform: capitalize;
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 0;
   margin: 0;
   padding-top: 2rem;
-  padding-right: 2.5rem;
+  padding-right: 2rem;
 }
 
 .logo {
