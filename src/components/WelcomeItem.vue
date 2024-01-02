@@ -9,6 +9,7 @@
 <style scoped>
 .item {
   margin-top: 2rem;
+  text-align: justify;
 }
 
 h3 {

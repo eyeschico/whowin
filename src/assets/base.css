@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap");
 
 *,
 *::before,
@@ -11,8 +11,9 @@
 body {
   min-height: 100vh;
   color: #ffde37;
-  background: #181818;
+  text-shadow: -2px 2px 3px #101010;
+  background: #1a1a1a;
   text-transform: uppercase;
-  font-family: "Helvetica Neue", -apple-system, Ubuntu, sans-serif;
+  font-family: "Rubik", -apple-system, Ubuntu, sans-serif;
   font-size: 15px;
 }

@@ -34,7 +34,8 @@ nav {
 nav a {
   font-size: 1rem;
   padding: 0.5rem;
-  padding-top: 13px;
+  padding-top: 10px;
+  text-shadow: none;
 }
 
 @media (min-width: 1024px) {

@@ -17,7 +17,10 @@
 
       <div class="playerwinner" v-if="players.length > 0">
         <button class="btn" @click="pickWinner">WHO WIN ?</button>
-        <h2 v-if="winner">Le gagnant est @{{ winner }} !</h2>
+        <div v-if="winner" class="winnerbox">
+          <h2>Le gagnant est</h2>
+          <h2>{{ winner }} !</h2>
+        </div>
       </div>
     </div>
   </div>
@@ -55,79 +58,82 @@ export default {
 <style>
 h2 {
   margin-top: 2rem;
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: right;
+  cursor: default;
 }
 
 .btn {
-  font-size: 2rem;
-  height: 4rem;
-  padding-top: 0.5rem;
+  text-decoration: none;
+  width: 50%;
+  font-size: 1rem;
+  height: 2rem;
   background-color: #ffde37;
   border: none;
   text-transform: uppercase;
   cursor: pointer;
-  font-family: "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: "Rubik", Ubuntu, sans-serif;
+  -webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
+}
+
+.btn:hover {
+  background-color: #fff2b4;
 }
 
 .addplayer {
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 1rem;
 
   display: flex;
   flex-direction: column;
 }
 
 .addplayer input {
+  width: 100%;
   border-radius: 0px;
   border: none;
   height: 4rem;
   padding: 1rem;
   margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 2rem;
+  -webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
 }
 
 .playerlist {
-  max-height: 10rem;
-  margin-top: 2rem;
-  font-size: 2rem;
-  max-height: 30vh;
-  overflow-y: scroll;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: right;
 }
 
 .playerlist button {
   border: none;
   background: none;
-  font-size: 2rem;
-  color: red;
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(230, 0, 0);
   cursor: pointer;
 }
 
-.playerwinner {
-  margin-top: 2rem;
-  font-size: 2rem;
-}
-
-.playerwinner button {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.playerwinner h2 {
+.winnerbox {
   background: #ffde37;
   color: black;
+  margin-top: 2rem;
   padding: 2rem;
+  -webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
+}
+
+.winnerbox h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 1.4rem;
-  max-width: 100%;
+  text-shadow: none;
 }
 
 @media (min-width: 1024px) {
-  .start {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
 }
 </style>

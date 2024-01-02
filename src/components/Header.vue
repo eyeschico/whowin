@@ -20,7 +20,7 @@ h1 {
   padding: 0;
   margin: 0;
   padding-top: 2rem;
-  padding-right: 2rem;
+  cursor: default;
 }
 
 .logo {
