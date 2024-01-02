@@ -9,8 +9,8 @@ import Header from "./components/Header.vue";
       <Header title="WHO WIN" />
 
       <nav>
-        <RouterLink to="/">HOME</RouterLink>
-        <RouterLink to="/start">START</RouterLink>
+        <RouterLink to="/">home</RouterLink>
+        <RouterLink to="/start">start</RouterLink>
       </nav>
     </div>
   </header>
@@ -32,31 +32,11 @@ nav {
 }
 
 nav a {
-  display: inline-block;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 0.5rem;
-  padding-top: 1rem;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-top: 13px;
 }
 
 @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    margin-right: 0.8rem;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-right: -2rem;
-    font-size: 1rem;
-  }
 }
 </style>

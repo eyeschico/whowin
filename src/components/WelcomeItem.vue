@@ -12,9 +12,7 @@
 }
 
 h3 {
-  font-size: 3rem;
-  margin-bottom: 0.4rem;
-  text-transform: uppercase;
+  font-size: 2rem;
 }
 
 @media (min-width: 1024px) {

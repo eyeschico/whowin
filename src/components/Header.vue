@@ -15,12 +15,12 @@ defineProps({
 
 <style scoped>
 h1 {
-  font-weight: 500;
   text-transform: capitalize;
-  font-size: 8rem;
+  font-size: 5rem;
   padding: 0;
   margin: 0;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  padding-right: 2.5rem;
 }
 
 .logo {
@@ -28,8 +28,5 @@ h1 {
 }
 
 @media (min-width: 1024px) {
-  .logo h1 {
-    text-align: left;
-  }
 }
 </style>
