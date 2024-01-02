@@ -64,6 +64,7 @@ h2 {
 }
 
 .btn {
+  margin-top: 2rem;
   text-decoration: none;
   width: 50%;
   font-size: 1rem;
@@ -73,8 +74,8 @@ h2 {
   text-transform: uppercase;
   cursor: pointer;
   font-family: "Rubik", Ubuntu, sans-serif;
-  -webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
-  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.3);
 }
 
 .btn:hover {
@@ -96,10 +97,9 @@ h2 {
   height: 4rem;
   padding: 1rem;
   margin-top: 1rem;
-  margin-bottom: 2rem;
   font-size: 2rem;
-  -webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
-  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.3);
 }
 
 .playerlist {
@@ -122,8 +122,8 @@ h2 {
   color: black;
   margin-top: 2rem;
   padding: 2rem;
-  -webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
-  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.3);
 }
 
 .winnerbox h2 {
